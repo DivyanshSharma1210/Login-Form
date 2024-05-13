@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Signup Form</h1>
+        <form action="/post" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" required id="name" name="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile:</label>
+                <input type="tel" required id="mobile" name="Mobile" placeholder="Enter Your Valid Mobile">
+            </div>
+            <div class="form-group">
+                <label for="dob">DOB:</label>
+                <input type="date" required id="dob" name="DOB">
+            </div>
+            <div class="form-group">
+                <label for="Username">Username:</label>
+                <input type="text" required id="Username" name="Username" placeholder="Choose a Username">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <input type="password" required id="Password" name="Password" placeholder="Create a Strong Password">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
